@@ -1,0 +1,42 @@
+#intro{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+#intro > h1 > a{
+    font-size: 50px;
+    color: silver;
+    animation: colorChanges 5s infinite;
+    text-decoration: none;
+
+}
+#intro > p{
+    font-weight: bolder;
+}
+@keyframes colorChanges {
+    0%{
+        color: silver;
+    }
+    25%{
+        color: yellow;
+    }
+
+    50%{
+        color: orange;
+    }
+
+    75%{
+        color: orangered;
+    }
+
+    100%{
+        color: silver;
+    }
+}
+#intro > .name{
+    font-size: 50px;
+    color: white;
+    animation: none ;
+}

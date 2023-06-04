@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(0, 0, 45) !important;
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-style: oblique ;
+}
+
+/* inside nav bar text , not resume section */
+.nav > ul > li > a {
+text-decoration: none;
+color: white;
+font-size: 15px;
+border: 2px solid transparent;
+border-radius: 5px;
+padding: 10px;
+transition: 0.7s;
+
+}
+.nav > ul > li > a:hover{
+    border: 2px solid orange;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+/* holds my resume to download , comes with an animation to call visitors attention */
+.resume{
+    border: 2px solid rgb(55, 85, 55);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    animation: borderAnimation 3s infinite;
+    text-decoration: none;
+    color: white;
+}
+.resume:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+@keyframes borderAnimation {
+    0%{border-color: limegreen;}
+    50% {border-color:rgb(251, 102, 2)}
+    70%{border-color: blueviolet;}
+    100%{border-color: limegreen;}
+
+
+  }
+/* insidde the nav bar text ,includes resume section */
+.nav > ul > li {
+    display: inline;
+    margin: 0;
+
+}
+/* includes the entire list section of the nav bar */
+.nav > ul{
+    display: inline;
+    float: right;
+    flex-direction: column-reverse;
+    margin-top: 25px;
+
+}
+
+
+
+    /* hamburger menu button does not display at full screen  */
+
+.mobile-container{
+    display: none;
+}
+
+.topnav a.icon {
+    background: black;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+
+
+
+ 

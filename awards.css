@@ -1,0 +1,17 @@
+#awardsEducation > h1{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#awardsEducation{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+}
+
+#awardsEducation > p {
+    font-size: 20px;
+    display: flex;
+}

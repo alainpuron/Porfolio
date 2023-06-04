@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1000px) {
+  
+    /* hides the nav menu  */
+    .nav > ul {
+        display: none;
+    }
+
+
+    .mobile-container {
+        max-width: max-content;
+        background-color: #555;
+        height: 0px;
+        color: white;
+        border-radius: 10px;
+        display: block;
+      }
+
+
+      
+      .topnav {
+        overflow: hidden;
+        background: #000000c7;
+        position: relative;
+        width: fit-content;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+        margin-top: 10px;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: #0000006e;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 20px;
+      }
+      
+      .topnav a:hover {
+        background-color: #00000052;
+        color: white;
+      }
+      
+      .active {
+        background-color: transparent;
+        color: transparent;
+      }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ /* reduces the font size all the skill section for better accomodation in the mobile sector */
+    #intro{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+    #intro > h1 > a{
+        font-size: 25px;
+     
+    
+    }
+    #intro > p{
+        font-weight: bolder;
+    }
+
+
+
+
+    #skill > h1 ,#projects > h1 ,#Contact > h1 , #awardsEducation > h1{
+        font-size: 25px !important; 
+        margin-top: 20px;
+        text-align: center;
+    }
+    #skill ,#awardsEducation{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    
+    }
+    #skill > p ,#awardsEducation > p {
+        font-size: 15px;
+    }
+    
+    table {
+        font-size: 10px;
+        width: 100%;
+      }
+      
+      td, th {
+      
+        padding: 15px;
+      }
+
+#awardsEducation > table{
+  width: 100%;
+  margin: auto;
+}
+  
+
+     
+
+}

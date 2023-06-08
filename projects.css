@@ -6,7 +6,6 @@
 }
 
 
-
 #main a{
     text-decoration: none;
     color: black;
@@ -18,7 +17,7 @@
 
 .item > a{
     font-size: 20px;
-    color: orange;
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,13 +25,16 @@
     border: rgb(255, 255, 255) solid 2px;
     padding: 20px 30px 20px 30px;
     background: #05050597;
-    border-radius: 10px;
+    border-radius: 50px;
+    transition: 1s;
+
 }
 
 .item > a:hover{
   text-decoration: none;
   color: white;
-  background: #0505056f;
+  background: transparent;
+  transition: 1s;
 
 }
 
@@ -44,6 +46,8 @@
   .carousel-inner .item img {
     margin: 0 auto;
     max-height: 400px;
+    border-radius: 25px;
+    
   }
   
   .carousel-control {
@@ -56,20 +60,19 @@
   
   .carousel-control.left,
   .carousel-control.right {
-    background-image: none;
+    background: transparent;
+    
   }
   
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-indicators li {
-    color: orange;
+    color: rgb(255, 255, 255);
     font-size: 25px;
-    opacity: 1;
   }
   
-  .carousel-control:hover .glyphicon-chevron-left,
+  /* .carousel-control:hover .glyphicon-chevron-left,
   .carousel-control:hover .glyphicon-chevron-right,
   .carousel-indicators li:hover {
-    opacity: 1;
   }
-  
+   */

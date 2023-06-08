@@ -19,6 +19,7 @@ table {
     border-collapse: collapse ;
     width: 70% ;
     margin: auto;
+
   }
   
   td, th {
@@ -26,14 +27,39 @@ table {
     text-align: left;
     padding: 15px !important;
     text-align: center !important;
+
+
   }
   
   tr:nth-child(even) {
-    background: rgba(0, 0, 0, 0.324) ;
+    background: rgba(255, 255, 255, 0.147) ;
   }
 
-  .checked {
-    color: yellow ;
+
+
+
+
+  .bar-border{
+    margin: auto  !important;
+    align-content: center !important;
+    border: 1px solid white;
+    width: 100%;
   }
+
+  .progress{
+    margin-top:auto !important;
+    margin-bottom: auto !important;
+    background: linear-gradient(rgba(255, 255, 255, 0.802) 40%, rgba(255, 255, 255, 0.568) 60%) !important;
+    color: black;
+    font-size: 15px;
+    
+
+    
+  }
+  
+
+  /* .checked {
+    color: yellow ;
+  } */
 
 

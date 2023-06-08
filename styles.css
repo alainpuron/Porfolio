@@ -12,9 +12,7 @@ html {
   100% { opacity: 1; }
 }
 
-.font-loading {
-  animation: font-loading 1s ease-in-out;
-}
+
 
 body{
   background:black !important;

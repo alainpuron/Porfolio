@@ -129,5 +129,18 @@
   
 
      
+.progress{
+  margin-top:auto !important;
+  margin-bottom: auto !important;
+
+  font-size: 10px;
+ 
+}
+
+.big{
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+}
 
 }

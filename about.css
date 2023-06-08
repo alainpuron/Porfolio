@@ -1,20 +1,48 @@
 #intro{
     margin-top: 50px;
-    text-align: left;
+    /* text-align: left; */
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 20px;
+    font-size: 25px;
+    
+
 }
-#intro > h1 > a{
+/* #intro > h1 > a{
     font-size: 50px;
     color: silver;
     animation: colorChanges 5s infinite;
     text-decoration: none;
+ 
 
-}
-#intro > p{
+} */
+#intro > p {
     font-weight: bolder;
-}
+    background: rgba(255, 255, 255, 0.123);
+    border-radius: 25px;
+    padding: 10px;
+    word-spacing: 10px;
+  }
+  
+
+  .big {
+    
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+
+  }
+  
+ .big >  span {
+    padding-top: 30px;
+    display: inline-block;
+
+  }
+  
 @keyframes colorChanges {
     0%{
         color: silver;
@@ -35,8 +63,9 @@
         color: silver;
     }
 }
-#intro > .name{
+
+
+.name {
+    text-align: center;
     font-size: 50px;
-    color: white;
-    animation: none ;
 }
